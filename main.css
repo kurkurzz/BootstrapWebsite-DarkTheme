@@ -10860,6 +10860,7 @@ header {
 
 #navbar-menu-button:active {
   border: 3px solid rgba(255, 255, 255, 0.3);
+  outline: none;
 }
 
 #navbar {
@@ -10873,5 +10874,26 @@ header {
 .navbar-element {
   padding-left: 0%;
   padding-right: 0%;
+}
+
+.main-footer {
+  background-color: #212425;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.main-footer a {
+  color: #c9c3bc;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.main-footer a:hover {
+  color: #1a96dd;
+}
+
+.main-footer P {
+  color: #bbb5ac;
 }
 /*# sourceMappingURL=main.css.map */

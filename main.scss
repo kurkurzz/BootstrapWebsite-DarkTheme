@@ -20,7 +20,8 @@ header {
 }
 
 #navbar-menu-button:active{
-    border: 3px solid rgba(255, 255, 255,0.3)
+    border: 3px solid rgba(255, 255, 255,0.3);
+    outline: none;
 }
 
 #navbar{
@@ -34,4 +35,25 @@ header {
 .navbar-element{
     padding-left: 0%;
     padding-right: 0%;
+}
+
+.main-footer{
+    background-color:rgb(33, 36, 37);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.main-footer a{
+    color: rgb(201, 195, 188);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.main-footer a:hover{
+    color: rgb(26, 150, 221);
+}
+
+.main-footer P{
+    color: rgb(187, 181, 172);
 }
