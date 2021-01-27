@@ -10889,11 +10889,48 @@ header {
   font-weight: 600;
 }
 
+.underlined-link {
+  color: #c9c3bc;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#releases-link {
+  font-weight: 300;
+}
+
 .main-footer a:hover {
   color: #1a96dd;
 }
 
 .main-footer P {
   color: #bbb5ac;
+}
+
+.main-content h1 {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+.main-content p {
+  font-size: 23px;
+}
+
+#get-started-button {
+  background-color: #634391;
+  color: white;
+}
+
+#content-download-button {
+  border-color: #bbb5ac;
+  color: #bbb5ac;
+}
+
+#version-text {
+  font-size: 15px;
+}
+
+main {
+  background-color: #1e2021;
+  color: #c9c3bc;
 }
 /*# sourceMappingURL=main.css.map */

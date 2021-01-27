@@ -50,10 +50,48 @@ header {
     font-weight: 600;
 }
 
+.underlined-link{
+    color: rgb(201, 195, 188);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#releases-link{
+    font-weight: 300;
+}
+
+
 .main-footer a:hover{
     color: rgb(26, 150, 221);
 }
 
 .main-footer P{
     color: rgb(187, 181, 172);
+}
+
+.main-content h1{
+    font-size: calc(1.525rem + 3.3vw);
+}
+
+.main-content p{
+    font-size: 23px;
+}
+
+#get-started-button{
+    background-color: #634391;
+    color: white;
+}
+
+#content-download-button{
+    border-color: rgb(187, 181, 172);
+    color: rgb(187, 181, 172);;
+}
+
+#version-text{
+    font-size: 15px;
+}
+
+main{
+    background-color: #1e2021;
+    color: rgb(201, 195, 188);
 }
