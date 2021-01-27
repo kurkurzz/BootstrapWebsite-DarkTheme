@@ -1,6 +1,6 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-nav {
+header {
     background-color: #634391;
 }
 
@@ -19,6 +19,19 @@ nav {
     border-color: transparent;
 }
 
+#navbar-menu-button:active{
+    border: 3px solid rgba(255, 255, 255,0.3)
+}
+
 #navbar{
     padding: .75rem .75rem;
+}
+
+#hr-navbar{
+    border-top: 1px solid rgba(255, 255, 255,0.2)
+}
+
+.navbar-element{
+    padding-left: 0%;
+    padding-right: 0%;
 }
