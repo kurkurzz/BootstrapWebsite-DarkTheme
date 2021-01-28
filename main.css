@@ -10918,9 +10918,30 @@ header {
   color: white;
 }
 
+#get-started-button:hover {
+  background-color: #442e63;
+  border-color: #442e63;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
 #content-download-button {
   border-color: #bbb5ac;
   color: #bbb5ac;
+}
+
+#content-download-button:hover {
+  background-color: #4b4b4b;
+  color: white;
+  border-color: #4b4b4b;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.btn-copy:hover {
+  background-color: #bbb5ac;
+  color: white;
+  border-color: white;
 }
 
 #version-text {
@@ -11001,5 +11022,9 @@ code {
 
 #forth-side-icon {
   background-color: #9c222e;
+}
+
+.terminal-span {
+  color: #1a96dd;
 }
 /*# sourceMappingURL=main.css.map */

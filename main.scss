@@ -2,6 +2,7 @@
 
 $link-blue: rgb(26, 150, 221);
 $text-grey: rgb(201, 195, 188);
+$background-grey: #1e2021;
 
 header {
     background-color: #634391;
@@ -84,9 +85,29 @@ header {
     color: white;
 }
 
+#get-started-button:hover{
+    background-color: #442e63;
+    border-color: #442e63;
+    transition: 100ms;
+}
+
+
 #content-download-button{
     border-color: rgb(187, 181, 172);
     color: rgb(187, 181, 172);;
+}
+
+#content-download-button:hover{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-color: rgb(75, 75, 75);
+    transition: 100ms;
+}
+
+.btn-copy:hover{
+    background-color: rgb(187, 181, 172);
+    color:white;
+    border-color: white;
 }
 
 #version-text{
@@ -94,7 +115,7 @@ header {
 }
 
 main{
-    background-color: #1e2021;
+    background-color: $background-grey;
     color: $text-grey;
 }
 
@@ -167,4 +188,8 @@ code{
 
 #forth-side-icon{
     background-color: #9c222e;
+}
+
+.terminal-span{
+    color: $link-blue;
 }
