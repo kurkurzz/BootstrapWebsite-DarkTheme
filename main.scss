@@ -1,5 +1,8 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
+$link-blue: rgb(26, 150, 221);
+$text-grey: rgb(201, 195, 188);
+
 header {
     background-color: #634391;
 }
@@ -39,19 +42,19 @@ header {
 
 .main-footer{
     background-color:rgb(33, 36, 37);
-    position: absolute;
+    // position: absolute;
     width: 100%;
-    bottom: 0;
+    // bottom: 0;
 }
 
 .main-footer a{
-    color: rgb(201, 195, 188);
+    color: $text-grey;
     text-decoration: underline;
     font-weight: 600;
 }
 
 .underlined-link{
-    color: rgb(201, 195, 188);
+    color: $text-grey;
     text-decoration: underline;
     font-weight: 600;
 }
@@ -60,9 +63,8 @@ header {
     font-weight: 300;
 }
 
-
 .main-footer a:hover{
-    color: rgb(26, 150, 221);
+    color: $link-blue;
 }
 
 .main-footer P{
@@ -93,5 +95,76 @@ header {
 
 main{
     background-color: #1e2021;
-    color: rgb(201, 195, 188);
+    color: $text-grey;
+}
+
+.p-top{
+    font-size: 20;
+    font-weight: 500;
+}
+
+.p-bottom{
+    font-size: 16;
+    font-weight: 400;
+}
+
+.p-bottom a{
+    color: $link-blue;
+    font-weight: 400;
+}
+
+.btn-side-content{
+    color: $link-blue;
+    border-color: $link-blue;
+}
+
+.btn-side-content:hover{
+    background-color: $link-blue;
+    color:white;
+}
+
+.code-box{
+    background-color: #212425;
+    position: relative;
+}
+
+code{
+    color: $text-grey;
+}
+
+.btn-copy{
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    background-color: transparent;
+    color: $link-blue;
+    border-color: $link-blue;
+    font-size: 10;
+}
+
+.btn-copy:hover{
+    background-color: $link-blue;
+    color:white;
+    border-color: white;
+}
+
+.side-icon-holder{
+    border-radius: .75rem;
+    padding: .75rem;
+}
+
+#first-side-icon{
+    background-color: #1a6b45;
+}
+
+#second-side-icon{
+    background-color: #0a50b8;
+}
+
+#third-side-icon{
+    background-color: #5a3e83;
+}
+
+#forth-side-icon{
+    background-color: #9c222e;
 }
